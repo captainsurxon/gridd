@@ -12,7 +12,7 @@ section{
 }
 
 .container{
-    width: 1300px;
+    max-width: 1300px;
     margin: 0 auto;
     .nav{
         display: flex;
@@ -43,6 +43,7 @@ section{
     }
     .abbo a{
        text-decoration: none;
+       color: black;
     }
     .section0{
         display: flex;
@@ -80,6 +81,8 @@ font-weight: 600;
 line-height: 24px;
 margin-top: 33px;
 color: white;
+cursor: pointer;
+border: 2px solid #285E67;
 }
 }
 
@@ -244,7 +247,7 @@ font-style: normal;
 font-weight: 600; 
 line-height: 24px;
 color: #FFF;
-
+cursor: pointer;
 }
 }
 
@@ -296,15 +299,16 @@ font-weight: 600;
 line-height: 24px;
 }
 
+footer{
+    background: #285E67;
+    margin: 0 auto;
+}
 .section8{
+    width: 1200px;
+    height: 200px;
     display: flex;
     align-items: center;
-    margin-top: 100px;
-    padding-left: 70px;
-    width: 1441px;
-    padding: 78px 139px;
-    background: #285E67;
-
+    margin: 0 auto;
     .nav{
         display: flex;
         align-items: center;
@@ -331,12 +335,155 @@ line-height: 24px;
 }
 
 .iconlar{
+    width: 1200px;
+    height: 200px;
     display: flex;   
     align-items: center;
     margin-top: -50px;
     gap: 24px;
-    margin-left: 140px;
+    margin: 0 auto;
+    margin-top: -150px;
 }
+
+@media screen and (max-width: 1024px){
+
+    .abbo{
+        margin-left: -460px;
+    }
+
+    .section1{
+        width: 1024px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .section1 h1{
+        width: 1024px;
+        margin-left: -100px;
+    }
+
+    .section1 p{
+        width: 800px;
+        margin-left: 10px;
+    }
+
+    .section1 button{
+    margin-left: -190px;
+    }
+
+    .section3 .yoga{
+    display: none;
+    }
+    .section3{
+        width: 850px;
+        background-color: #F4F4F4;
+    }
+
+    .section2{
+        max-width: 1024px;
+        .imm img{
+        width: 427px;
+        height: 391px; 
+        }
+        .imm{
+            gap: 10px;
+        }
+    }
+    .imm{
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .section3{
+        max-width: 1024px;
+    }
+        .hamm{
+            text-align: center;
+        }
+
+        .section4{
+            width: 1024px;
+            display: flex;
+            gap: 10px;
+            .ruka img{
+                width: 429.5px;
+                height: 578px;
+            }
+            .fresh{
+                width: 400px;
+            }
+            .fresh p{
+                width: 350px;
+            }
+
+            .gul p{
+                width: 250px;
+            }
+
+            .gul1 p{
+                width: 250px;
+            }
+
+            .gul2 p{
+                width: 250px;
+            }
+
+        }
+        .section6{
+            width: 1024px;
+        }
+
+        .well h1{
+            width: 800px;
+        }
+        .well p{
+            width: 800px;
+        }
+
+        .section6{
+            width: 850px;
+        }
+        .section5{
+            width: 850px;
+            background: #F4F4F4;
+        }
+        .kakos img{
+            display: none;
+        }
+        .youare h1{
+            margin-left: -60px;
+        }
+        .barg{
+            width: 400px;
+            text-align: center;
+            margin-left: -60px;
+        }
+        .section7{
+            width: 750px;
+            margin: 0 auto;
+            margin-top: -200px;
+        }
+        .bac111{
+            width: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+            margin: 0 auto;
+        }
+        .section8{
+            width: 1024px;
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+        .abbo1{
+            margin-left: -600px;
+        }
+        .iconlar{
+            margin-left: 50px;
+        }
+    }
+
+
 
 
 
